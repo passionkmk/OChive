@@ -1,14 +1,14 @@
 //
-//  OchiveApp.swift
-//  Ochive
+//  OChiveApp.swift
+//  OChive
 //
-//  Created by PARK YEEUN on 2022/11/02.
+//  Created by pkmk on 2022/11/07.
 //
 
 import SwiftUI
 
 @main
-struct OchiveApp: App {
+struct OChiveApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

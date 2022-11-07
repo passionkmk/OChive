@@ -1,14 +1,14 @@
 //
-//  OchiveTests.swift
-//  OchiveTests
+//  OChiveTests.swift
+//  OChiveTests
 //
-//  Created by PARK YEEUN on 2022/11/02.
+//  Created by pkmk on 2022/11/07.
 //
 
 import XCTest
-@testable import Ochive
+@testable import OChive
 
-final class OchiveTests: XCTestCase {
+final class OChiveTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

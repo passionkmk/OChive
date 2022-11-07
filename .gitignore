@@ -1,8 +1,8 @@
 ### Xcode ###
 
 # Xcodegen
-*.xcodeproj
-*.xcworkspace
+#*.xcodeproj
+#*.xcworkspace
 
 ## New Relic
 upload_dsym_results
@@ -35,6 +35,12 @@ DerivedData/
 **/.Trashes
 
 ### Xcode Patch ###
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
 **/xcshareddata/WorkspaceSettings.xcsettings
 
 ### Swift ###

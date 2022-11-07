@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  Ochive
+//  OChive
 //
-//  Created by PARK YEEUN on 2022/11/02.
+//  Created by pkmk on 2022/11/07.
 //
 
 import SwiftUI

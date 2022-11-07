@@ -1,13 +1,13 @@
 //
-//  OchiveUITestsLaunchTests.swift
-//  OchiveUITests
+//  OChiveUITestsLaunchTests.swift
+//  OChiveUITests
 //
-//  Created by PARK YEEUN on 2022/11/02.
+//  Created by pkmk on 2022/11/07.
 //
 
 import XCTest
 
-final class OchiveUITestsLaunchTests: XCTestCase {
+final class OChiveUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
