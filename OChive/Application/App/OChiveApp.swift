@@ -9,6 +9,8 @@ import SwiftUI
 
 @main
 struct OChiveApp: App {
+    @UIApplicationDelegateAdaptor var delegate: OChiveAppDelegate
+    
     var body: some Scene {
         WindowGroup {
             ContentView()

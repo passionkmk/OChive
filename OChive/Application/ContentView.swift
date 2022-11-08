@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var appDelegate: OChiveAppDelegate
+    @EnvironmentObject var sceneDelegate: OChiveSceneDelegate
+    
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -16,6 +19,12 @@ struct ContentView: View {
             Text("Hello, world!")
         }
         .padding()
+        .onReceive(appDelegate.$appStatus) {
+            print($0)
+        }
+        .onReceive(sceneDelegate.$sceneStatus) {
+            print($0)
+        }
     }
 }
 

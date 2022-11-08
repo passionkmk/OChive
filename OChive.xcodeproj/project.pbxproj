@@ -14,6 +14,8 @@
 		7B6F939E2919044400CA828D /* OChiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6F939D2919044400CA828D /* OChiveTests.swift */; };
 		7B6F93A82919044400CA828D /* OChiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6F93A72919044400CA828D /* OChiveUITests.swift */; };
 		7B6F93AA2919044400CA828D /* OChiveUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6F93A92919044400CA828D /* OChiveUITestsLaunchTests.swift */; };
+		7BAFFC55291A346E0029845D /* OChiveAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAFFC54291A346E0029845D /* OChiveAppDelegate.swift */; };
+		7BAFFC57291A347E0029845D /* OChiveSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAFFC56291A347E0029845D /* OChiveSceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		7B6F93A32919044400CA828D /* OChiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OChiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B6F93A72919044400CA828D /* OChiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OChiveUITests.swift; sourceTree = "<group>"; };
 		7B6F93A92919044400CA828D /* OChiveUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OChiveUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7BAFFC54291A346E0029845D /* OChiveAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OChiveAppDelegate.swift; sourceTree = "<group>"; };
+		7BAFFC56291A347E0029845D /* OChiveSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OChiveSceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +98,8 @@
 		7B6F938B2919044200CA828D /* OChive */ = {
 			isa = PBXGroup;
 			children = (
-				7B6F938C2919044200CA828D /* OChiveApp.swift */,
-				7B6F938E2919044200CA828D /* ContentView.swift */,
-				7B6F93902919044300CA828D /* Assets.xcassets */,
-				7B6F93922919044300CA828D /* Preview Content */,
+				7BAFFC52291A342B0029845D /* Application */,
+				7BAFFC51291A34140029845D /* Resource */,
 			);
 			path = OChive;
 			sourceTree = "<group>";
@@ -125,6 +127,34 @@
 				7B6F93A92919044400CA828D /* OChiveUITestsLaunchTests.swift */,
 			);
 			path = OChiveUITests;
+			sourceTree = "<group>";
+		};
+		7BAFFC51291A34140029845D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				7B6F93902919044300CA828D /* Assets.xcassets */,
+				7B6F93922919044300CA828D /* Preview Content */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		7BAFFC52291A342B0029845D /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				7BAFFC53291A34400029845D /* App */,
+				7B6F938E2919044200CA828D /* ContentView.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		7BAFFC53291A34400029845D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7B6F938C2919044200CA828D /* OChiveApp.swift */,
+				7BAFFC54291A346E0029845D /* OChiveAppDelegate.swift */,
+				7BAFFC56291A347E0029845D /* OChiveSceneDelegate.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +288,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B6F938F2919044200CA828D /* ContentView.swift in Sources */,
+				7BAFFC55291A346E0029845D /* OChiveAppDelegate.swift in Sources */,
 				7B6F938D2919044200CA828D /* OChiveApp.swift in Sources */,
+				7BAFFC57291A347E0029845D /* OChiveSceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,7 +448,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"OChive/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -444,7 +476,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"OChive/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
