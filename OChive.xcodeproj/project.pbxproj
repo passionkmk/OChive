@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B34A1C72938B9D70018D67C /* OChive-QA.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7B34A1C02938B9D70018D67C /* OChive-QA.xcconfig */; };
+		7B34A1C82938B9D70018D67C /* OChive-QA.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7B34A1C02938B9D70018D67C /* OChive-QA.xcconfig */; };
+		7B34A1C92938B9D70018D67C /* OChive-QA.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7B34A1C02938B9D70018D67C /* OChive-QA.xcconfig */; };
+		7B34A1CA2938B9D70018D67C /* OChive-STAGE.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7B34A1C12938B9D70018D67C /* OChive-STAGE.xcconfig */; };
+		7B34A1CB2938B9D70018D67C /* OChive-STAGE.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7B34A1C12938B9D70018D67C /* OChive-STAGE.xcconfig */; };
+		7B34A1CC2938B9D70018D67C /* OChive-STAGE.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7B34A1C12938B9D70018D67C /* OChive-STAGE.xcconfig */; };
+		7B34A1CD2938B9D70018D67C /* OChive-DEV.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7B34A1C22938B9D70018D67C /* OChive-DEV.xcconfig */; };
+		7B34A1CE2938B9D70018D67C /* OChive-DEV.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7B34A1C22938B9D70018D67C /* OChive-DEV.xcconfig */; };
+		7B34A1CF2938B9D70018D67C /* OChive-DEV.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7B34A1C22938B9D70018D67C /* OChive-DEV.xcconfig */; };
+		7B34A1D02938B9D70018D67C /* AppVersion.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7B34A1C42938B9D70018D67C /* AppVersion.xcconfig */; };
+		7B34A1D12938B9D70018D67C /* AppVersion.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7B34A1C42938B9D70018D67C /* AppVersion.xcconfig */; };
+		7B34A1D22938B9D70018D67C /* AppVersion.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7B34A1C42938B9D70018D67C /* AppVersion.xcconfig */; };
+		7B34A1D32938B9D70018D67C /* Common.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7B34A1C52938B9D70018D67C /* Common.xcconfig */; };
+		7B34A1D42938B9D70018D67C /* Common.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7B34A1C52938B9D70018D67C /* Common.xcconfig */; };
+		7B34A1D52938B9D70018D67C /* Common.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7B34A1C52938B9D70018D67C /* Common.xcconfig */; };
+		7B34A1D62938B9D70018D67C /* OChive-PROD.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7B34A1C62938B9D70018D67C /* OChive-PROD.xcconfig */; };
+		7B34A1D72938B9D70018D67C /* OChive-PROD.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7B34A1C62938B9D70018D67C /* OChive-PROD.xcconfig */; };
+		7B34A1D82938B9D70018D67C /* OChive-PROD.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7B34A1C62938B9D70018D67C /* OChive-PROD.xcconfig */; };
 		7B6F938D2919044200CA828D /* OChiveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6F938C2919044200CA828D /* OChiveApp.swift */; };
 		7B6F938F2919044200CA828D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6F938E2919044200CA828D /* ContentView.swift */; };
 		7B6F93912919044300CA828D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B6F93902919044300CA828D /* Assets.xcassets */; };
@@ -36,6 +54,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B34A1C02938B9D70018D67C /* OChive-QA.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "OChive-QA.xcconfig"; sourceTree = "<group>"; };
+		7B34A1C12938B9D70018D67C /* OChive-STAGE.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "OChive-STAGE.xcconfig"; sourceTree = "<group>"; };
+		7B34A1C22938B9D70018D67C /* OChive-DEV.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "OChive-DEV.xcconfig"; sourceTree = "<group>"; };
+		7B34A1C42938B9D70018D67C /* AppVersion.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = AppVersion.xcconfig; sourceTree = "<group>"; };
+		7B34A1C52938B9D70018D67C /* Common.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
+		7B34A1C62938B9D70018D67C /* OChive-PROD.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "OChive-PROD.xcconfig"; sourceTree = "<group>"; };
 		7B6F93892919044200CA828D /* OChive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OChive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B6F938C2919044200CA828D /* OChiveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OChiveApp.swift; sourceTree = "<group>"; };
 		7B6F938E2919044200CA828D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +99,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B34A1BF2938B9D70018D67C /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				7B34A1C32938B9D70018D67C /* Shared */,
+				7B34A1C22938B9D70018D67C /* OChive-DEV.xcconfig */,
+				7B34A1C02938B9D70018D67C /* OChive-QA.xcconfig */,
+				7B34A1C12938B9D70018D67C /* OChive-STAGE.xcconfig */,
+				7B34A1C62938B9D70018D67C /* OChive-PROD.xcconfig */,
+			);
+			path = Config;
+			sourceTree = SOURCE_ROOT;
+		};
+		7B34A1C32938B9D70018D67C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				7B34A1C42938B9D70018D67C /* AppVersion.xcconfig */,
+				7B34A1C52938B9D70018D67C /* Common.xcconfig */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		7B6F93802919044200CA828D = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +143,7 @@
 		7B6F938B2919044200CA828D /* OChive */ = {
 			isa = PBXGroup;
 			children = (
+				7B34A1BF2938B9D70018D67C /* Config */,
 				7BAFFC52291A342B0029845D /* Application */,
 				7BAFFC51291A34140029845D /* Resource */,
 			);
@@ -219,7 +265,7 @@
 		7B6F93812919044200CA828D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
+				BuildIndependentTargetsInParallel = NO;
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
@@ -261,8 +307,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B34A1CD2938B9D70018D67C /* OChive-DEV.xcconfig in Resources */,
+				7B34A1D02938B9D70018D67C /* AppVersion.xcconfig in Resources */,
 				7B6F93942919044300CA828D /* Preview Assets.xcassets in Resources */,
+				7B34A1D62938B9D70018D67C /* OChive-PROD.xcconfig in Resources */,
+				7B34A1C72938B9D70018D67C /* OChive-QA.xcconfig in Resources */,
 				7B6F93912919044300CA828D /* Assets.xcassets in Resources */,
+				7B34A1D32938B9D70018D67C /* Common.xcconfig in Resources */,
+				7B34A1CA2938B9D70018D67C /* OChive-STAGE.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +322,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B34A1D42938B9D70018D67C /* Common.xcconfig in Resources */,
+				7B34A1C82938B9D70018D67C /* OChive-QA.xcconfig in Resources */,
+				7B34A1D12938B9D70018D67C /* AppVersion.xcconfig in Resources */,
+				7B34A1D72938B9D70018D67C /* OChive-PROD.xcconfig in Resources */,
+				7B34A1CE2938B9D70018D67C /* OChive-DEV.xcconfig in Resources */,
+				7B34A1CB2938B9D70018D67C /* OChive-STAGE.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +335,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B34A1D52938B9D70018D67C /* Common.xcconfig in Resources */,
+				7B34A1C92938B9D70018D67C /* OChive-QA.xcconfig in Resources */,
+				7B34A1D22938B9D70018D67C /* AppVersion.xcconfig in Resources */,
+				7B34A1D82938B9D70018D67C /* OChive-PROD.xcconfig in Resources */,
+				7B34A1CF2938B9D70018D67C /* OChive-DEV.xcconfig in Resources */,
+				7B34A1CC2938B9D70018D67C /* OChive-STAGE.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,8 +391,255 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		7B6F93AB2919044400CA828D /* Debug */ = {
+		7B34A1E12938BA2C0018D67C /* STAGE */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B34A1C12938B9D70018D67C /* OChive-STAGE.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = STAGE;
+		};
+		7B34A1E22938BA2C0018D67C /* STAGE */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B34A1C12938B9D70018D67C /* OChive-STAGE.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(DISPLAY_NAME)";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OChive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = STAGE;
+		};
+		7B34A1E32938BA2C0018D67C /* STAGE */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B34A1C12938B9D70018D67C /* OChive-STAGE.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OChiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OChive.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OChive";
+			};
+			name = STAGE;
+		};
+		7B34A1E42938BA2C0018D67C /* STAGE */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B34A1C12938B9D70018D67C /* OChive-STAGE.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OChiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OChive;
+			};
+			name = STAGE;
+		};
+		7B34A1E52938BA320018D67C /* PROD */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B34A1C62938B9D70018D67C /* OChive-PROD.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = PROD;
+		};
+		7B34A1E62938BA320018D67C /* PROD */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B34A1C62938B9D70018D67C /* OChive-PROD.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(DISPLAY_NAME)";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OChive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = PROD;
+		};
+		7B34A1E72938BA320018D67C /* PROD */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B34A1C62938B9D70018D67C /* OChive-PROD.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OChiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OChive.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OChive";
+			};
+			name = PROD;
+		};
+		7B34A1E82938BA320018D67C /* PROD */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B34A1C62938B9D70018D67C /* OChive-PROD.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OChiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OChive;
+			};
+			name = PROD;
+		};
+		7B6F93AB2919044400CA828D /* DEV */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B34A1C22938B9D70018D67C /* OChive-DEV.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -385,10 +696,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
-			name = Debug;
+			name = DEV;
 		};
-		7B6F93AC2919044400CA828D /* Release */ = {
+		7B6F93AC2919044400CA828D /* QA */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B34A1C02938B9D70018D67C /* OChive-QA.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -439,10 +751,11 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = QA;
 		};
-		7B6F93AE2919044400CA828D /* Debug */ = {
+		7B6F93AE2919044400CA828D /* DEV */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B34A1C22938B9D70018D67C /* OChive-DEV.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +764,7 @@
 				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(DISPLAY_NAME)";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -467,10 +781,11 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Debug;
+			name = DEV;
 		};
-		7B6F93AF2919044400CA828D /* Release */ = {
+		7B6F93AF2919044400CA828D /* QA */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B34A1C02938B9D70018D67C /* OChive-QA.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -479,6 +794,7 @@
 				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(DISPLAY_NAME)";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -495,10 +811,11 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Release;
+			name = QA;
 		};
-		7B6F93B12919044400CA828D /* Debug */ = {
+		7B6F93B12919044400CA828D /* DEV */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B34A1C22938B9D70018D67C /* OChive-DEV.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,10 +831,11 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OChive.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OChive";
 			};
-			name = Debug;
+			name = DEV;
 		};
-		7B6F93B22919044400CA828D /* Release */ = {
+		7B6F93B22919044400CA828D /* QA */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B34A1C02938B9D70018D67C /* OChive-QA.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -533,10 +851,11 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OChive.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OChive";
 			};
-			name = Release;
+			name = QA;
 		};
-		7B6F93B42919044400CA828D /* Debug */ = {
+		7B6F93B42919044400CA828D /* DEV */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B34A1C22938B9D70018D67C /* OChive-DEV.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,10 +869,11 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = OChive;
 			};
-			name = Debug;
+			name = DEV;
 		};
-		7B6F93B52919044400CA828D /* Release */ = {
+		7B6F93B52919044400CA828D /* QA */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B34A1C02938B9D70018D67C /* OChive-QA.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -567,7 +887,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = OChive;
 			};
-			name = Release;
+			name = QA;
 		};
 /* End XCBuildConfiguration section */
 
@@ -575,38 +895,46 @@
 		7B6F93842919044200CA828D /* Build configuration list for PBXProject "OChive" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7B6F93AB2919044400CA828D /* Debug */,
-				7B6F93AC2919044400CA828D /* Release */,
+				7B6F93AB2919044400CA828D /* DEV */,
+				7B6F93AC2919044400CA828D /* QA */,
+				7B34A1E12938BA2C0018D67C /* STAGE */,
+				7B34A1E52938BA320018D67C /* PROD */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = DEV;
 		};
 		7B6F93AD2919044400CA828D /* Build configuration list for PBXNativeTarget "OChive" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7B6F93AE2919044400CA828D /* Debug */,
-				7B6F93AF2919044400CA828D /* Release */,
+				7B6F93AE2919044400CA828D /* DEV */,
+				7B6F93AF2919044400CA828D /* QA */,
+				7B34A1E22938BA2C0018D67C /* STAGE */,
+				7B34A1E62938BA320018D67C /* PROD */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = DEV;
 		};
 		7B6F93B02919044400CA828D /* Build configuration list for PBXNativeTarget "OChiveTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7B6F93B12919044400CA828D /* Debug */,
-				7B6F93B22919044400CA828D /* Release */,
+				7B6F93B12919044400CA828D /* DEV */,
+				7B6F93B22919044400CA828D /* QA */,
+				7B34A1E32938BA2C0018D67C /* STAGE */,
+				7B34A1E72938BA320018D67C /* PROD */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = DEV;
 		};
 		7B6F93B32919044400CA828D /* Build configuration list for PBXNativeTarget "OChiveUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7B6F93B42919044400CA828D /* Debug */,
-				7B6F93B52919044400CA828D /* Release */,
+				7B6F93B42919044400CA828D /* DEV */,
+				7B6F93B52919044400CA828D /* QA */,
+				7B34A1E42938BA2C0018D67C /* STAGE */,
+				7B34A1E82938BA320018D67C /* PROD */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = DEV;
 		};
 /* End XCConfigurationList section */
 	};

@@ -18,12 +18,18 @@ struct ContentView: View {
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
         }
-        .padding()
-        .onReceive(appDelegate.$appStatus) {
-            print($0)
-        }
         .onReceive(sceneDelegate.$sceneStatus) {
             print($0)
+            
+            #if DEV
+            print("DEV")
+            #elseif QA
+            print("QA")
+            #elseif STAGE
+            print("STAGE")
+            #elseif PROD
+            print("PROD")
+            #endif
         }
     }
 }

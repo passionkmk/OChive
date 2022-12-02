@@ -1,0 +1,27 @@
+//
+//  Common.xcconfig
+//  OChive
+//
+//  Created by pkmk on 2022/12/01.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "AppVersion.xcconfig"
+
+OTHER_SWIFT_FLAGS[config=DEV][sdk=*] = $(inherited) -DDEV
+OTHER_SWIFT_FLAGS[config=QA][sdk=*] = $(inherited) -DQA
+OTHER_SWIFT_FLAGS[config=STAGE][sdk=*] = $(inherited) -DSTAGE
+OTHER_SWIFT_FLAGS[config=PROD][sdk=*] = $(inherited) -DPROD
+
+IOS_DEPLOYMENT_TARGET = 16.0
+SWIFT_VERSION = 5
+
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = $(inherited)
+ENABLE_TESTABILITY = NO // TODO: - 추후 활성화
+TARGETED_DEVICE_FAMILY = 1,2
+// DEVELOPMENT_TEAM =
+
+// 참고 - https://developer.apple.com/documentation/xcode/build-settings-reference
+// 참고 - https://xcodebuildsettings.com/

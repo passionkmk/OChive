@@ -3,7 +3,7 @@
 ### Project Info
 - iOS Version: **iOS16**
 - Support Device: **iPhone**, **iPad**
-- UIFramework: **SwiftUI**
+- UIFramework: **SwiftUI**, **UIKit**
 - 3rd Manage: **SPM**
 - Xcode Manage: **Tuist**
 - Architecture: **MV**

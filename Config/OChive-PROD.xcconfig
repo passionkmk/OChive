@@ -1,0 +1,25 @@
+//
+//  OChive-PROD.xcconfig
+//  OChive
+//
+//  Created by pkmk on 2022/11/30.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "Shared/Common.xcconfig"
+
+DISPLAY_NAME = O'chive
+PRODUCT_NAME = $(DISPLAY_NAME)
+
+PRODUCT_BUNDLE_IDENTIFIER = com.ochive.prod
+// CODE_SIGN_IDENTITY =
+// PROVISIONING_PROFILE_SPECIFIER =
+// CODE_SIGN_ENTITLEMENTS =
+
+ONLY_ACTIVE_ARCH = NO
+VALIDATE_PRODUCT = YES
+SWIFT_OPTIMIZATION_LEVEL = -O
+GCC_OPTIMIZATION_LEVEL = -O0
+DEBUG_INFORMATION_FORMAT = dwarf-with-dsym
